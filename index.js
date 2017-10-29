@@ -1,6 +1,7 @@
 const express = require('express')
 const bodyParser = require('body-parser')
-const { Recipe } = require('./models')
+const passport = require('./config/auth')
+const { recipes, users, sessions } = require('./routes')
 
 const port = process.env.PORT || 3030
 
@@ -9,28 +10,42 @@ let app = express()
 app
   .use(bodyParser.urlencoded({ extended: true }))
   .use(bodyParser.json())
-  .get('/recipes', (req, res) => {
-    Recipe.find()
-      // Newest recipes first
-      .sort({ createdAt: -1 })
-      // Send the data in JSON format
-      .then((recipes) => res.send(recipes))
-      // Throw a 500 error if something goes wrong
-      .catch((error) => res.status(500).send({ error }))
-  })
-  .get('/recipes/:id', (req, res) => {
-    const id = req.params.id
-    Recipe.findById(id)
-      .then((recipe) => res.send(recipe))
-      .catch((error) => res.status(422).send({ error }))
-  })
-  .post('/recipes', (req, res) => {
-    const recipe = req.body
-    Recipe.create({ recipe })
-      .then((recipe) => res.send(recipe))
-      .catch((error) => res.status(422).send({ error }))
+  .use(passport.initialize())
+  .use(recipes)
+  .use(users)
+  .use(sessions)
+
+  // catch 404 and forward to error handler
+  .use((req, res, next) => {
+    const err = new Error('Not Found')
+    err.status = 404
+    next(err)
   })
 
-app.listen(port, () => {
-  console.log(`Server is listening on port ${port}`)
-})
+  // error handlers
+
+  // development error handler
+  // will print stacktrace
+  if (app.get('env') === 'development') {
+    app.use((err, req, res, next) => {
+      res.status(err.status || 500)
+      res.send({
+        message: err.message,
+        error: err
+      })
+    })
+  }
+
+  // production error handler
+  // no stacktraces leaked to user
+  app.use((err, req, res, next) => {
+    res.status(err.status || 500)
+    res.send({
+      message: err.message,
+      error: {}
+    })
+  })
+
+  .listen(port, () => {
+    console.log(`Server is listening on port ${port}`)
+  })

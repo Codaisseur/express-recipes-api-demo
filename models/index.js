@@ -1,6 +1,7 @@
-const mongoose = require('../config/database.js')
-const recipeSchema = require('./recipe')
+const Recipe = require('./recipe')
+const User = require('./user')
 
 module.exports = {
-  Recipe: mongoose.model('recipes', recipeSchema),
+  Recipe,
+  User
 }

@@ -1,4 +1,5 @@
-const { Schema } = require('mongoose')
+const mongoose = require('../config/database')
+const { Schema } = mongoose
 
 const ingredientSchema = new Schema({
   amount: { type: String, required: false },
@@ -28,4 +29,4 @@ const recipeSchema = new Schema({
   updatedAt: { type: Date, default: Date.now }
 })
 
-module.exports = recipeSchema
+module.exports = mongoose.model('recipes', recipeSchema)
