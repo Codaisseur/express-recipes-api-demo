@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "start": "node .",
-    "dev": "nodemon --inspect ."
+    "dev": "nodemon --inspect .",
+    "seed": "node db/seed.js"
   },
   "dependencies": {
     "body-parser": "^1.18.2",
@@ -19,6 +20,7 @@
     "passport-local-mongoose": "^4.4.0"
   },
   "devDependencies": {
-    "nodemon": "^1.12.1"
+    "nodemon": "^1.12.1",
+    "superagent": "^3.8.0"
   }
 }

@@ -1,0 +1,751 @@
+[
+  {
+    "title": "Paella",
+    "summary": "This is the dramatic seafood paella that looks stunning, with crustaceans and shellfish. You can vary the quantities of seafood and also use crab, crayfish, or lobster (boil them separately). Andresito, who is collecting reminiscences of people in villages around him in Alicante, told me that on the Alicante Coast, fishermen's families made seafood paellas without any vegetables. When they did not go out to fish, they made arroz de piedras with mollusks from the rocks (piedras means rocks). The fishermen went around local villages selling their fish on scooters, and people inland added vegetables. In Catalonia, where the tradition of mixing meat and seafood is very old, they had pieces of chicken, pork, rabbit, or duck and sausage in their seafood paellas. Today adding meat and vegetables to seafood paella has become common in other regions, where seasonal vegetables such as green beans, peas, artichokes, or peppers also go in. It is called paella mixta. Wine was not added in the past but it is sometimes today. Serve this with Alioli if you like.",
+    "vegan": false,
+    "vegetarian": false,
+    "pescatarian": true,
+    "photo": "http://cd.sseu.re/mixed-seafood-paella.jpeg",
+    "ingredients": [
+      {
+        "amount": "1",
+        "name": "large onion, finely chopped",
+        "optional": false
+      },
+      {
+        "amount": "5 Tbsp.",
+        "name": "olive oil",
+        "optional": false
+      },
+      {
+        "amount": "2",
+        "name": "garlic cloves, crushed to a paste or finely chopped",
+        "optional": false
+      },
+      {
+        "amount": "2",
+        "name": "tomatoes, peeled and chopped",
+        "optional": false
+      },
+      {
+        "amount": "1/2 tsp.",
+        "name": "sugar",
+        "optional": false
+      },
+      {
+        "amount": "",
+        "name": "salt",
+        "optional": false
+      },
+      {
+        "amount": "1 tsp.",
+        "name": "pimentón dulce (or sweet paprika)",
+        "optional": false
+      },
+      {
+        "amount": "a good pinch of",
+        "name": "saffron threads",
+        "optional": false
+      },
+      {
+        "amount": "4",
+        "name": "cleaned small squid, bodies sliced into 1/4-inch-wide rings, tentacles left whole",
+        "optional": false
+      },
+      {
+        "amount": "2 cups",
+        "name": "medium-grain Spanish paella rice or risotto rice, such as Arborio or Carnaroli",
+        "optional": false
+      },
+      {
+        "amount": "3 cups",
+        "name": "fish or chicken stock, plus more if needed",
+        "optional": false
+      },
+      {
+        "amount": "1 cup",
+        "name": "dry white wine",
+        "optional": false
+      },
+      {
+        "amount": "12",
+        "name": "shrimp in their shells",
+        "optional": false
+      },
+      {
+        "amount": "16",
+        "name": "mussels, scrubbed and debearded",
+        "optional": false
+      }
+    ],
+    "cookingSteps": [
+      {
+        "title": "Preparation",
+        "description": "Fry the onion in the oil in a 16-inch paella pan until soft, stirring often. Stir in the garlic, and before it begins to color, add the tomatoes. Add the sugar, salt to taste, pimentón (or paprika), and saffron, stir well, and cook until the tomatoes are reduced to a jammy sauce and the oil is sizzling. Add the squid and cook, stirring, for a minute or so. Add the rice and stir well until all the grains are coated. (You can prepare the dish to this point up to an hour in advance.)"
+      },
+      {
+        "description": "Bring the stock and wine to a boil in a saucepan. Pour over the rice, bring to a boil, and add salt to taste (even if the broth tastes a bit salty, it will not be salty when it is absorbed by the rice). Stir well and spread the rice out evenly in the pan (do not stir again). Cook the rice over low heat for 18 to 20 minutes, moving the pan around and rotating it so that the rice cooks evenly. Lay the shrimp on top after 10 minutes and turn them when they have become pink on the first side. Add a little more hot stock toward the end if the rice seems too dry and you hear crackly frying noises before it is done. When the rice is done, turn off the heat and cover the pan with a large piece of foil."
+      },
+      {
+        "description": "Steam the mussels with a finger of water in a pan with a tight-fitting lid. As soon as they open, they are cooked. Throw away any that have not opened."
+      },
+      {
+        "description": "Arrange the mussels on top of the paella."
+      }
+    ],
+    "cookingTime": 60
+  },
+  {
+    "title": "Tomato Basil Penne Pasta",
+    "summary": "A Mediterranean-style family staple",
+    "vegan": false,
+    "vegetarian": true,
+    "pescatarian": false,
+    "photo": "http://images.media-allrecipes.com/userphotos/720x405/242356.jpg",
+    "ingredients": [
+      {
+        "amount": "1 tablesp",
+        "name": "basil oil",
+        "optional": false
+      },
+      {
+        "amount": "1 cup",
+        "name": "shredded pepperjack cheese",
+        "optional": false
+      },
+      {
+        "amount": "1 cup",
+        "name": "shredded mozzarella cheese",
+        "optional": false
+      },
+      {
+        "amount": "8 ounces",
+        "name": "package penne pasta",
+        "optional": false
+      },
+      {
+        "amount": "1 tablesp",
+        "name": "olive oil",
+        "optional": false
+      },
+      {
+        "amount": "3 cloves",
+        "name": "garlic, minced",
+        "optional": false
+      },
+      {
+        "amount": "1 pint",
+        "name": "grape tomatoes, halved",
+        "optional": false
+      },
+      {
+        "amount": "1 tablesp",
+        "name": "minced fresh basil",
+        "optional": false
+      },
+      {
+        "amount": "1/4 cup",
+        "name": "grated parmesan cheese",
+        "optional": false
+      }
+    ],
+    "cookingSteps": [
+      {
+        "title": "Preparation",
+        "description": "Bring a large pot of water to a rolling boil over high heat. Cook pasta in boiling water until the pasta has cooked through, but is still firm to the bite, about 11 minutes. Drain."
+      },
+      {
+        "description": "Heat basil and olive oils in a large skillet over medium-high heat. Cook garlic in oil until soft. Add tomatoes, reduce heat to medium, and simmer for 10 minutes. Stir in pepperjack, mozzarella, and Parmesan cheese. When cheese begins to melt, mix in cooked penne pasta. Season with fresh basil."
+      }
+    ],
+    "cookingTime": 45
+  },
+  {
+    "title": "Bibimbap",
+    "summary": "This is vegetarian but there are many bibimbap recipes with beef or chicken marinades, if you want to add beef or chicken to this dish",
+    "vegan": false,
+    "vegetarian": true,
+    "pescatarian": false,
+    "photo": "http://images.media-allrecipes.com/userphotos/560x315/882007.jpg",
+    "ingredients": [
+      {
+        "amount": "1 tablesp",
+        "name": "sesame oil",
+        "optional": false
+      },
+      {
+        "amount": "1 cup",
+        "name": "carrot matchsticks",
+        "optional": false
+      },
+      {
+        "amount": "1 cup",
+        "name": "zucchini matchsticks",
+        "optional": false
+      },
+      {
+        "amount": "1/2 can",
+        "name": "bean sprouts, drained",
+        "optional": false
+      },
+      {
+        "amount": "6 ounces",
+        "name": "canned bamboo shoots, drained",
+        "optional": false
+      },
+      {
+        "amount": "1 can",
+        "name": "sliced mushrooms, drained",
+        "optional": false
+      },
+      {
+        "amount": "1/8 teasp",
+        "name": "salt to taste",
+        "optional": false
+      },
+      {
+        "amount": "2 cups",
+        "name": "cooked and cooled rice",
+        "optional": false
+      },
+      {
+        "amount": "1/3 cup",
+        "name": "sliced green onions",
+        "optional": false
+      },
+      {
+        "amount": "2 tablesp",
+        "name": "soy sauce",
+        "optional": false
+      },
+      {
+        "amount": "1/4 teasp",
+        "name": "ground black pepper",
+        "optional": false
+      },
+      {
+        "amount": "1 tablesp",
+        "name": "butter",
+        "optional": false
+      },
+      {
+        "amount": "3",
+        "name": "eggs",
+        "optional": false
+      },
+      {
+        "amount": "3 teasp",
+        "name": "sweet red child sauce",
+        "optional": true
+      }
+    ],
+    "cookingSteps": [
+      {
+        "title": "Preparation",
+        "description": "Heat sesame oil in a large skillet over medium heat; cook and stir carrot and zucchini in the hot oil until vegetables begin to soften, about 5 minutes. Stir in bean sprouts, bamboo shoots, and mushrooms. Cook and stir until carrots are tender, about 5 more minutes. Season to taste with salt and set vegetables aside."
+      },
+      {
+        "description": "Stir cooked rice, green onions, soy sauce, and black pepper in the same skillet until the rice is hot. In a separate skillet over medium heat, melt butter and gently fry eggs, turning once, until the yolks are still slightly runny but the egg whites are firm, about 3 minutes per egg."
+      },
+      {
+        "description": "To serve, divide hot cooked rice mixture between 3 serving bowls and top each bowl with 1/3 of the vegetable mixture and a fried egg. Serve sweet red chili sauce on the side for mixing into bibimbap."
+      }
+    ],
+    "cookingTime": 50
+  },
+  {
+    "title": "Kung Pao Chicken",
+    "summary": "\"Spicy chicken with peanuts, similar to what is served in Chinese restaurants. It is easy to make, and you can be as sloppy with the measurements as you want. They reduce to a nice, thick sauce. Substitute cashews for peanuts, or bamboo shoots for the water chestnuts. You cant go wrong! Enjoy!",
+    "vegan": false,
+    "vegetarian": false,
+    "pescatarian": false,
+    "photo": "http://images.media-allrecipes.com/userphotos/560x315/290890.jpg",
+    "ingredients": [
+      {
+        "amount": "1 pound",
+        "name": "skinless, boneless chicken breast halves - cut into chunks",
+        "optional": false
+      },
+      {
+        "amount": "2 Tbsp.",
+        "name": "white whine",
+        "optional": false
+      },
+      {
+        "amount": "2 Tbsp.",
+        "name": "soy sauce",
+        "optional": false
+      },
+      {
+        "amount": "2 Tbsp.",
+        "name": "sesame oil, divided",
+        "optional": false
+      },
+      {
+        "amount": "2 Tbsp.",
+        "name": "cornstarch dissolved in 2 tablespoons",
+        "optional": false
+      },
+      {
+        "amount": "1 ounce",
+        "name": "hot chile paste",
+        "optional": false
+      },
+      {
+        "amount": "1 tsp.",
+        "name": "distilled white vinegar",
+        "optional": false
+      },
+      {
+        "amount": "2 tsp.",
+        "name": "brown sugar",
+        "optional": false
+      },
+      {
+        "amount": "4",
+        "name": "green onions, chopped",
+        "optional": false
+      },
+      {
+        "amount": "1 Tbsp.",
+        "name": "chopped garlic",
+        "optional": false
+      },
+      {
+        "amount": "8 ounces",
+        "name": "can water chestnuts",
+        "optional": false
+      },
+      {
+        "amount": "4 ounces",
+        "name": "chopped peanuts",
+        "optional": false
+      }
+    ],
+    "cookingSteps": [
+      {
+        "title": "Preparation",
+        "description": "Put your happy face on!"
+      },
+      {
+        "title": "To Make Marinade",
+        "description": "Combine 1 tablespoon wine, 1 tablespoon soy sauce, 1 tablespoon oil and 1 tablespoon cornstarch/water mixture and mix together. Place chicken pieces in a glass dish or bowl and add marinade. Toss to coat. Cover dish and place in refrigerator for about 30 minutes."
+      },
+      {
+        "title": "To Make Sauce",
+        "description": "In a small bowl combine 1 tablespoon wine, 1 tablespoon soy sauce, 1 tablespoon oil, 1 tablespoon cornstarch/water mixture, chili paste, vinegar and sugar. Mix together and add green onion, garlic, water chestnuts and peanuts. In a medium skillet, heat sauce slowly until aromatic."
+      },
+      {
+        "description": "Meanwhile, remove chicken from marinade and saute in a large skillet until meat is white and juices run clear. When sauce is aromatic, add sauteed chicken to it and let simmer together until sauce thickens."
+      }
+    ],
+    "cookingTime": 30
+  },
+  {
+    "title": "Grilled mushroom risotto",
+    "summary": "A risotto with grilled mushrooms",
+    "vegan": false,
+    "vegetarian": true,
+    "pescatarian": false,
+    "photo": "http://cdn.jamieoliver.com/recipe-database/oldImages/xtra_med/255_1_1436800586.jpg",
+    "ingredients": [
+      {
+        "amount": "1 tablesp",
+        "name": "basil oil",
+        "optional": false
+      },
+      {
+        "amount": "1 cup",
+        "name": "shredded pepperjack cheese",
+        "optional": false
+      },
+      {
+        "amount": "1 cup",
+        "name": "shredded mozzarella cheese",
+        "optional": false
+      },
+      {
+        "amount": "400 gram",
+        "name": "risotto rice",
+        "optional": false
+      },
+      {
+        "amount": "1 tablesp",
+        "name": "olive oil",
+        "optional": false
+      },
+      {
+        "amount": "3 cloves",
+        "name": "garlic, minced",
+        "optional": false
+      },
+      {
+        "amount": "4 large handfuls",
+        "name": "wild mushrooms",
+        "optional": false
+      },
+      {
+        "amount": "1.5 litres vegetable stock ",
+        "name": "vegetable stock",
+        "optional": false
+      },
+      {
+        "amount": "1/4 cup",
+        "name": "grated parmesan cheese",
+        "optional": false
+      }
+    ],
+    "cookingSteps": [
+      {
+        "title": "Preparation",
+        "description": "Heat your stock in a saucepan and keep it on a low simmer. Place the porcini mushrooms in a bowl and pour in just enough hot stock to cover. Leave for a couple of minutes until they've softened. Fish them out of the stock and chop them, reserving the soaking liquid."
+      },
+      {
+        "description": "In a large pan, heat a lug of olive oil and add the onion and celery. Slowly fry without colouring them for at least 10 minutes, then turn the heat up and add the rice. Give it a stir. Stir in the vermouth or wine – it'll smell fantastic! Keep stirring until the liquid has cooked into the rice. Now pour the porcini soaking liquid through a sieve into the pan and add the chopped porcini, a good pinch of salt and your first ladle of hot stock. Turn the heat down to a simmer and keep adding ladlefuls of stock, stirring and massaging the starch out of the rice, allowing each ladleful to be absorbed before adding the next."
+      },
+      {
+        "title": "add shit",
+        "description": "Carry on adding stock until the rice is soft but with a slight bite. This will take about 30 minutes. Meanwhile, get a dry griddle pan hot and grill the wild mushrooms until soft. If your pan isn't big enough, do this in batches. Put them into a bowl and add the chopped herbs, a pinch of salt and the lemon juice. Using your hands, get stuck in and toss everything together – this is going to be incredible!"
+      },
+      {
+        "title": "Finalizing",
+        "description": "Take the risotto off the heat and check the seasoning carefully. Stir in the butter and the Parmesan. You want it to be creamy and oozy in texture, so add a bit more stock if you think it needs it. Put a lid on and leave the risotto to relax for about 3 minutes."
+      },
+      {
+        "title": "Top it off",
+        "description": "Take your risotto and add a little more seasoning or Parmesan if you like. Serve a good dollop of risotto topped with some grilled dressed mushrooms, a sprinkling of freshly grated Parmesan and a drizzle of extra virgin olive oil."
+      }
+    ],
+    "cookingTime": 90
+  },
+  {
+    "title": "Pasta for the poor",
+    "summary": "Pasta with as little ingredients as possible, but pretty tasty, and easy to make",
+    "vegan": false,
+    "vegetarian": true,
+    "pescatarian": false,
+    "photo": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQZt5uyg0CelF1OPvUDjAT2j2ptDPzpCFDRjezVdLarlqGiCODm2w",
+    "ingredients": [
+      {
+        "amount": "as many as needed",
+        "name": "Spaghetti",
+        "optional": false
+      },
+      {
+        "amount": "lots of",
+        "name": "olive oil",
+        "optional": false
+      },
+      {
+        "amount": "7",
+        "name": "garlic cloves, sliced",
+        "optional": false
+      },
+      {
+        "amount": "1/2 tsp",
+        "name": "Peperoncino(dried pepper)",
+        "optional": false
+      },
+      {
+        "amount": "1/2 tsp.",
+        "name": "parsley, chopped",
+        "optional": true
+      },
+      {
+        "amount": "lots",
+        "name": "parmesan cheese",
+        "optional": false
+      }
+    ],
+    "cookingSteps": [
+      {
+        "title": "Preparation",
+        "description": "Put on a big pan of water for the pasta, as soon as it boils: throw in the pasta"
+      },
+      {
+        "description": "put lots of oil in a frying pan, but make sure it doesn't boil"
+      },
+      {
+        "description": "add the garlic and peperoncino to the oil, turn of the gas and let it be for a while"
+      },
+      {
+        "description": "mix the pasta with the oil, put it on a plate"
+      },
+      {
+        "description": "sprinkle on some parsley, if you like, looks nice.."
+      },
+      {
+        "description": "and don't forget to top it of with the cheese!"
+      }
+    ],
+    "cookingTime": 12
+  },
+  {
+    "title": "Spanish Omelette",
+    "summary": "Spanish omelette is a traditional dish from Spanish cuisine called tortilla española or tortilla de patatas. It is an omelette made with eggs and potatoes, sometimes also with onion and/or chives or garlic; fried in oil and often served cold as an appetizer. It is part of the cuisine of Spain and many South American countries, especially Argentina.",
+    "vegan": false,
+    "vegetarian": true,
+    "pescatarian": true,
+    "photo": "http://cd.sseu.re/Spanish-Omelette.jpg",
+    "liked": false,
+    "ingredients": [
+      {
+        "amount": "5",
+        "name": "potatoes",
+        "optional": false
+      },
+      {
+        "amount": "6",
+        "name": "eggs",
+        "optional": false
+      },
+      {
+        "amount": "1",
+        "name": "onion",
+        "optional": false
+      },
+      {
+        "amount": "1 cup",
+        "name": "olive oil",
+        "optional": false
+      },
+      {
+        "amount": "",
+        "name": "salt",
+        "optional": false
+      }
+    ],
+    "cookingSteps": [
+      {
+        "description": "Scrape potatoes"
+      },
+      {
+        "description": "Cut potatoes into thick slices"
+      },
+      {
+        "description": "Chop the onion"
+      },
+      {
+        "description": "Heat the oil in a large frying pan"
+      },
+      {
+        "description": "Add potatoes to the pan"
+      },
+      {
+        "description": "Add onion to the pan"
+      },
+      {
+        "description": "Strain potatoes and onions through a colander into a large bowl"
+      },
+      {
+        "description": "Break the eggs"
+      },
+      {
+        "description": "Beat the eggs separately"
+      },
+      {
+        "description": "Stir into the bowl the potatoes with plenty of salt"
+      },
+      {
+        "description": "Heat a little of the strained oil in a smaller pan"
+      },
+      {
+        "description": "Tip everything into the pan and cook on a moderate heat"
+      },
+      {
+        "description": "When almost set, invert on a plate and slide back into the pan"
+      },
+      {
+        "description": "Cook a few more minutes and slide on to a plate and cool for 10 minutes before serving"
+      }
+    ],
+    "cookingTime": 75
+  },
+  {
+    "title": "Nasi Goreng",
+    "summary": "Nasi goreng, literally meaning \"fried rice\" in Indonesian and Malay, can refer simply to fried pre-cooked rice, a meal including stir fried rice in small amount of cooking oil or margarine, typically spiced with kecap manis (sweet soy sauce), shallot, garlic, ground shrimp paste, tamarind and chilli and accompanied by other ingredients, particularly egg, chicken and prawns.",
+    "vegan": false,
+    "vegetarian": false,
+    "pescatarian": false,
+    "photo": "https://www.goodmealhunting.com/system/dish_images/images/000/000/097/original/good-meal-hunting-sedapmantab-nasi-goreng-seafood-01.jpg?1458919766",
+    "liked": false,
+    "ingredients": [
+      {
+        "amount": "3 cups",
+        "name": "rice",
+        "optional": false
+      },
+      {
+        "amount": "2",
+        "name": "large onion, finely chopped",
+        "optional": false
+      },
+      {
+        "amount": "3",
+        "name": "garlic cloves, finely chopped",
+        "optional": false
+      },
+      {
+        "amount": "1",
+        "name": "leek, finely chopped",
+        "optional": false
+      },
+      {
+        "amount": "1",
+        "name": "stock cube",
+        "optional": false
+      },
+      {
+        "amount": "250 gr.",
+        "name": "bacon strips",
+        "optional": false
+      },
+      {
+        "amount": "2 tsp.",
+        "name": "chili paste (sambal badjak)",
+        "optional": false
+      },
+      {
+        "amount": "2 tsp.",
+        "name": "soy sauce",
+        "optional": false
+      },
+      {
+        "amount": "1 tsp.",
+        "name": "shrimp paste",
+        "optional": false
+      }
+    ],
+    "cookingSteps": [
+      {
+        "title": "Preparation",
+        "description": "Cook the rice for 17 minutes and let it rest for 5 minutes."
+      },
+      {
+        "description": "Fry the bacon strips together with the stock cube in a wok. Stir in the garlic, and before it begins to color, add the chopped onions and leek. Cook for 2 minutes over high heat."
+      },
+      {
+        "description": "Add the chili paste and let it simmer for a minute. Then add the chili paste and soy sauce to it and mix everything well."
+      },
+      {
+        "description": "Finally add the rice, stir properly and make sure there isn't any white rice grain left. Cook it for 2 more minutes."
+      }
+    ],
+    "cookingTime": 20
+  },
+  {
+    "title": "Black Eyed Pea Curry With Collards & Potatoes",
+    "summary": "Chunky red potatoes, velvetty collards and earthy black-eyed peas make for a voluptuous coconut curry that is slightly out of the ordinary. It comes together real real fast, too. Serve with basmati rice and an easy mango and avocado salsa, for sweetness, tartness and a little extra creaminess. Have some sriracha at the ready in case you want a little extra spice!",
+    "vegan": true,
+    "vegetarian": true,
+    "pescatarian": false,
+    "photo": "http://farm6.staticflickr.com/5523/11973747173_c987e2e393_z.jpg",
+    "liked": false,
+    "ingredients": [
+      {
+        "amount": "1 tbsp",
+        "name": "coconut oil",
+        "optional": false
+      },
+      {
+        "amount": "1",
+        "name": "large red onion, thinly sliced",
+        "optional": false
+      },
+      {
+        "amount": "2",
+        "name": "jalapenos",
+        "optional": false
+      },
+      {
+        "amount": "1tbsp",
+        "name": "freshly minced ginger",
+        "optional": false
+      },
+      {
+        "amount": "2",
+        "name": "cloves of garlic",
+        "optional": false
+      },
+      {
+        "amount": "2 tbsps",
+        "name": "mild curry powder",
+        "optional": false
+      },
+      {
+        "amount": "1/2 tbsp",
+        "name": "garam masala",
+        "optional": false
+      },
+      {
+        "amount": "3/4 teaspoon",
+        "name": "salt",
+        "optional": false
+      },
+      {
+        "amount": "1 tbsp",
+        "name": "agave",
+        "optional": false
+      },
+      {
+        "amount": "3 cups",
+        "name": "vegetable broth",
+        "optional": false
+      },
+      {
+        "amount": "2 tbsp",
+        "name": "tomato paste",
+        "optional": false
+      },
+      {
+        "amount": "500 gr",
+        "name": "red potatoes",
+        "optional": false
+      },
+      {
+        "amount": "400 gr",
+        "name": "collards",
+        "optional": false
+      },
+      {
+        "amount": "1 cup",
+        "name": "coconut milk",
+        "optional": false
+      },
+      {
+        "amount": "1.5 cups",
+        "name": "cooked black eyed peas",
+        "optional": false
+      },
+      {
+        "amount": "500 gr",
+        "name": "Basmati rice",
+        "optional": false
+      }
+    ],
+    "cookingSteps": [
+      {
+        "description": "Preheat a 4 quart pot over medium heat. Saute the onion and jalapeno in the coconut oil for 5 to 7 minutes, until onion is lightly browned."
+      },
+      {
+        "description": "Add the garlic and ginger, and saute until fragrant, about 30 seconds. Add 1 1/2 tablespoons of curry powder, garam masala, salt, vegetable broth, agave, and tomato paste, and stir. The tomato paste may not dissolve just yet but that's ok, it will when it heats through."
+      },
+      {
+        "description": "Add the potatoes, cover pot and bring to a boil. Once boiling, immediately lower heat to a simmer, and leave the lid ajar so that steam can escape. Let potatoes cook just until tender, about 5 more minutes."
+      },
+      {
+        "description": "In the meantime, toss together all of the salsa ingredients in a mixing bowl and set aside"
+      },
+      {
+        "description": "Once potatoes are fork tender, add the collards, black-eyed peas and coconut milk. Stir gently to incorporate. Leave lid ajar again, and bring to a simmer. Let simmer just until collards are tender, it should only take a few minutes."
+      },
+      {
+        "description": "Turn off heat and taste for salt and spices. Add remaining curry powder if needed. It tastes best if you let it sit for 10 minutes or so, but if you can't wait then just dig in."
+      },
+      {
+        "description": "Serve over basmati rice, topped with mango avocado salsa and cilantro, if you like. Have some sriracha at the ready in case you want a little extra spice."
+      }
+    ],
+    "cookingTime": 45
+  }
+]
