@@ -1,3 +1,4 @@
+// models/recipe.js
 const mongoose = require('../config/database')
 const { Schema } = mongoose
 
