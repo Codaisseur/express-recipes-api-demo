@@ -2,10 +2,23 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const passport = require('./config/auth')
 const { recipes, users, sessions } = require('./routes')
+const http = require('http')
+const socketAuth = require('./config/socket-auth')
+const socketIO = require('socket.io')
 
 const port = process.env.PORT || 3030
 
-let app = express()
+const app = express()
+const server = http.Server(app)
+const io = socketIO(server)
+
+// using auth middleware
+io.use(socketAuth);
+
+io.on('connect', socket => {
+  socket.emit('ping', `Welcome to the server, ${socket.request.user.name}`)
+  console.log(`${socket.request.user.name} connected to the server`)
+})
 
 app
   .use(bodyParser.urlencoded({ extended: true }))
@@ -22,7 +35,7 @@ app
     next(err)
   })
 
-  app.use((err, req, res, next) => {
+  .use((err, req, res, next) => {
     res.status(err.status || 500)
     res.send({
       message: err.message,
@@ -30,6 +43,4 @@ app
     })
   })
 
-  .listen(port, () => {
-    console.log(`Server is listening on port ${port}`)
-  })
+server.listen(port)
