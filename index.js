@@ -1,7 +1,7 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const passport = require('./config/auth')
-const { recipes, users, sessions } = require('./routes')
+const { games, users, sessions } = require('./routes')
 const http = require('http')
 const socketAuth = require('./config/socket-auth')
 const socketIO = require('socket.io')
@@ -24,7 +24,7 @@ app
   .use(bodyParser.urlencoded({ extended: true }))
   .use(bodyParser.json())
   .use(passport.initialize())
-  .use(recipes)
+  .use(games)
   .use(users)
   .use(sessions)
 

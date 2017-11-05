@@ -1,13 +1,12 @@
 {
-  "name": "recipes-api",
+  "name": "memory-game-api",
   "version": "1.0.0",
-  "description": "RESTful API to manage Recipes",
+  "description": "API for memory games",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "start": "node .",
-    "dev": "nodemon --inspect .",
-    "seed": "node db/seed.js"
+    "dev": "nodemon --inspect ."
   },
   "dependencies": {
     "body-parser": "^1.18.2",
@@ -22,7 +21,6 @@
     "socketio-jwt-auth": "^0.0.6"
   },
   "devDependencies": {
-    "nodemon": "^1.12.1",
-    "superagent": "^3.8.0"
+    "nodemon": "^1.12.1"
   }
 }
