@@ -1,4 +1,4 @@
-// models/user.js
+// models/game.js
 const mongoose = require('../config/database')
 const { Schema } = mongoose
 
