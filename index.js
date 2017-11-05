@@ -1,4 +1,5 @@
 const express = require('express')
+const cors = require('cors')
 const bodyParser = require('body-parser')
 const passport = require('./config/auth')
 const { games, users, sessions } = require('./routes')
@@ -21,6 +22,7 @@ io.on('connect', socket => {
 })
 
 app
+  .use(cors())
   .use(bodyParser.urlencoded({ extended: true }))
   .use(bodyParser.json())
   .use(passport.initialize())
