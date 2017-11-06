@@ -32,7 +32,7 @@ module.exports = io => {
       Game.create(newGame)
         .then((game) => {
           io.emit('action', {
-            type: 'CREATE_GAME',
+            type: 'GAME_CREATED',
             payload: game
           })
           res.json(game)
@@ -46,7 +46,7 @@ module.exports = io => {
       Game.findByIdAndUpdate(id, { $set: updatedGame }, { new: true })
         .then((game) => {
           io.emit('action', {
-            type: 'UPDATE_GAME',
+            type: 'GAME_UPDATED',
             payload: game
           })
           res.json(game)
@@ -66,7 +66,7 @@ module.exports = io => {
           Game.findByIdAndUpdate(id, { $set: updatedGame }, { new: true })
             .then((game) => {
               io.emit('action', {
-                type: 'UPDATE_GAME',
+                type: 'GAME_UPDATED',
                 payload: game
               })
               res.json(game)
@@ -80,7 +80,7 @@ module.exports = io => {
       Game.findByIdAndRemove(id)
         .then(() => {
           io.emit('action', {
-            type: 'DELETE_GAME',
+            type: 'GAME_REMOVED',
             payload: id
           })
           res.status = 200
