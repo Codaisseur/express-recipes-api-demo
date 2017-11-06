@@ -27,7 +27,7 @@ module.exports = io => {
     })
     .post('/games', authenticate, (req, res, next) => {
       let newGame = req.body
-      newGame.authorId = req.account._id
+      newGame.userId = req.account._id
 
       Game.create(newGame)
         .then((game) => {
