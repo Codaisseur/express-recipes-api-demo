@@ -50,7 +50,7 @@ module.exports = io => {
             payload: game
           })
           res.json(game)
-        }))
+        })
         .catch((error) => next(error))
     })
     .patch('/games/:id', authenticate, (req, res, next) => {
@@ -70,7 +70,7 @@ module.exports = io => {
                 payload: game
               })
               res.json(game)
-            }))
+            })
             .catch((error) => next(error))
         })
         .catch((error) => next(error))
