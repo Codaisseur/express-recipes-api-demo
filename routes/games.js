@@ -27,8 +27,13 @@ module.exports = io => {
         .catch((error) => next(error))
     })
     .post('/games', authenticate, (req, res, next) => {
-      let newGame = req.body
+      let newGame = {}
       newGame.userId = req.account._id
+
+      newGame.players = [{
+        userId: req.account._id,
+        pairs: []
+      }]
 
       Game.create(newGame)
         .then((game) => {
