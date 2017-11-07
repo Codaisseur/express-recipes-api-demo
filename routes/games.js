@@ -6,14 +6,15 @@ const { Game } = require('../models')
 const authenticate = passport.authorize('jwt', { session: false })
 
 module.exports = io => {
-  router.get('/games', (req, res, next) => {
-    Game.find()
-      // Newest games first
-      .sort({ createdAt: -1 })
-      // Send the data in JSON format
-      .then((games) => res.json(games))
-      // Throw a 500 error if something goes wrong
-      .catch((error) => next(error))
+  router
+    .get('/games', (req, res, next) => {
+      Game.find()
+        // Newest games first
+        .sort({ createdAt: -1 })
+        // Send the data in JSON format
+        .then((games) => res.json(games))
+        // Throw a 500 error if something goes wrong
+        .catch((error) => next(error))
     })
     .get('/games/:id', (req, res, next) => {
       const id = req.params.id
