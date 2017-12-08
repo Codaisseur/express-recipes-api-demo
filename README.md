@@ -1,6 +1,6 @@
-# Express Recipes API
+# Express Games API
 
-RESTful Express API for Recipes on top of MongoDB.
+RESTful Express API for Games on top of MongoDB.
 
 ## Authentication
 
@@ -28,18 +28,18 @@ Authorization: Bearer <token here>
 
 _**Note**: See `db/seed.js` for an example._
 
-## Recipes
+## Games
 
-**Note:** See `models/recipe.js` for the Recipe schema attributes.
+**Note:** See `models/game.js` for the Game schema attributes.
 
 | HTTP Verb | Path | Description |
 |-----------|------|--------------|
-| `GET` | `/recipes` | Retrieve all recipes |
-| `POST` | `/recipes` | Create a recipe* |
-| `GET` | `/recipes/:id` | Retrieve a single recipe by it's `id` |
-| `PUT` | `/recipes/:id` | Update a recipe with a specific `id`* |
-| `PATCH` | `/recipes/:id` | Patch (partial update) a recipe with a specific `id`* |
-| `DELETE` | `/recipes/:id` | Destroy a single recipe by it's `id`* |
+| `GET` | `/games` | Retrieve all games |
+| `POST` | `/games` | Create a game* |
+| `GET` | `/games/:id` | Retrieve a single game by it's `id` |
+| `PUT` | `/games/:id` | Update a game with a specific `id`* |
+| `PATCH` | `/games/:id` | Patch (partial update) a game with a specific `id`* |
+| `DELETE` | `/games/:id` | Destroy a single game by it's `id`* |
 | | | _* Needs authentication_ |
 
-_**Note**: Run `yarn run seed` to seed some initial recipes._
+_**Note**: Run `yarn run seed` to seed some initial games._

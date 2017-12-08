@@ -1,7 +1,5 @@
 // config/jwt.js
-const passportJWT = require('passport-jwt')
-
-const ExtractJwt = passportJWT.ExtractJwt
+const { ExtractJwt } = require('passport-jwt')
 
 module.exports = {
   jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
