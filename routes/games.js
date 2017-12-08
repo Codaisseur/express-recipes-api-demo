@@ -34,8 +34,7 @@ module.exports = io => {
           userId: req.account._id,
           pairs: []
         }],
-        cards: utils.shuffle('✿★♦✵♣♠♥✖'.repeat(2).split(''))
-          .map((symbol) => ({ visible: false, symbol: symbol }))
+        tiles: ["0","","","","x","","","x","o"]
       }
 
       Game.create(newGame)
