@@ -1,4 +1,5 @@
-// routes/games.js
+
+  // routes/games.js
 const router = require('express').Router()
 const passport = require('../config/auth')
 const { Game } = require('../models')
@@ -34,7 +35,7 @@ module.exports = io => {
           userId: req.account._id,
           pairs: []
         }],
-        tiles: ["0","","","","x","","","x","o"]
+        tiles: [null,null,null,null,null,null,null,null,null]
       }
 
       Game.create(newGame)
@@ -44,6 +45,7 @@ module.exports = io => {
             payload: game
           })
           res.json(game)
+
         })
         .catch((error) => next(error))
     })
