@@ -76,7 +76,11 @@ module.exports = io => {
           if (!game) { return next() }
 
           const newTiles = game.tiles;
-          newTiles[changeIndex] = "X";
+          const turnNo = newTiles.filter(t => (t !== null)).length + 1;
+          const takeTurns = turnNo % 2 === 1 ? 'O' : 'X';
+
+
+          newTiles[changeIndex] = takeTurns;
 
           const updatedGame = { ...game, tiles: newTiles }
 
