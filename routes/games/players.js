@@ -53,6 +53,7 @@ module.exports = io => {
         return next(error)
       }
 
+
       // Add the user to the players
       req.game.players.push({ userId, pairs: [] })
 
