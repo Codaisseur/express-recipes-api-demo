@@ -63,21 +63,22 @@ module.exports = io => {
         })
         .catch((error) => next(error))
     })
+
+
     .patch('/games/:id', authenticate, (req, res, next) => {
       const id = req.params.id
       const patchForGame = req.body
+      const changeIndex = req.body.ticTacToeIndex
 
       Game.findById(id)
         .then((game) => {
 
           if (!game) { return next() }
 
-          game.tiles.map(value, index) => {
-            if (index === ticTacToeIndex && value === null){
-              return "x"
-            }
-          }
-          const updatedGame = { ...game, ...patchForGame }
+          const newTiles = game.tiles;
+          newTiles[changeIndex] = "X";
+
+          const updatedGame = { ...game, tiles: newTiles }
 
           Game.findByIdAndUpdate(id, { $set: updatedGame }, { new: true })
             .then((game) => {
@@ -92,6 +93,8 @@ module.exports = io => {
         })
         .catch((error) => next(error))
     })
+
+
     .delete('/games/:id', authenticate, (req, res, next) => {
       const id = req.params.id
       Game.findByIdAndRemove(id)
