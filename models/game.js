@@ -15,6 +15,7 @@ const playerSchema = new Schema({
 
 const gameSchema = new Schema({
   tiles : [String],
+  winner : String,
   players: [playerSchema],
   turn: { type: Number, default: 0 }, // player index
   started: { type: Boolean, default: false },

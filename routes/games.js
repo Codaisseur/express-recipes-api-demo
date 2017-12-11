@@ -75,14 +75,40 @@ module.exports = io => {
 
           if (!game) { return next() }
 
+          // selecting x and o
           const newTiles = game.tiles;
           const turnNo = newTiles.filter(t => (t !== null)).length + 1;
           const takeTurns = turnNo % 2 === 1 ? 'O' : 'X';
 
-
           newTiles[changeIndex] = takeTurns;
 
-          const updatedGame = { ...game, tiles: newTiles }
+          //selecting a winner
+
+          function calculateWinner() {
+            const newTiles = game.tiles;
+            const lines = [
+              [newTiles[0],newTiles[1], newTiles[2]],
+              [newTiles[3],newTiles[4], newTiles[5]],
+              [newTiles[6],newTiles[7], newTiles[8]],
+              [newTiles[0],newTiles[3], newTiles[6]],
+              [newTiles[1],newTiles[4], newTiles[7]],
+              [newTiles[2],newTiles[5], newTiles[8]],
+              [newTiles[0],newTiles[4], newTiles[8]],
+              [newTiles[2],newTiles[4], newTiles[6]],
+            ];
+            for (let i = 0; i < lines.length; i++) {
+              if ((lines[i][0]) && (lines[i][0]) === (lines[i][1]) && (lines[i][0]) === (lines[i][2])) {
+                return lines[i][0];
+              }
+            }
+            return null;
+          }
+
+          const test = calculateWinner();
+          const newWinner = test
+
+          //updating the database
+          const updatedGame = { ...game, tiles: newTiles, winner: newWinner}
 
           Game.findByIdAndUpdate(id, { $set: updatedGame }, { new: true })
             .then((game) => {
