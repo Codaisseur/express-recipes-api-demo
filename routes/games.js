@@ -69,12 +69,19 @@ module.exports = io => {
 
       Game.findById(id)
         .then((game) => {
+
           if (!game) { return next() }
 
+          game.tiles.map(value, index) => {
+            if (index === ticTacToeIndex && value === null){
+              return "x"
+            }
+          }
           const updatedGame = { ...game, ...patchForGame }
 
           Game.findByIdAndUpdate(id, { $set: updatedGame }, { new: true })
             .then((game) => {
+
               io.emit('action', {
                 type: 'GAME_UPDATED',
                 payload: game
